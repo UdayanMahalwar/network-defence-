@@ -1,0 +1,45 @@
+ for(int i = 0 ; i < 5 ; i ++)
+
+    {
+
+        for(int j = 0 ; j < 5 ; j++)
+
+        {
+
+            if(mat[i][j] == 'A') continue;
+
+                for(int i = 0 ; i < 26 ; i++)
+
+                {
+
+                    char element = 'a' + i;
+
+                        if(!visited[element])
+
+                        {
+
+                            mat[i][j] = element;
+
+                            visited[element] = true;
+
+                            break;
+
+                        }
+
+                        else
+
+                        {
+
+                            continue;
+
+                        }
+
+                }
+
+        }
+
+        cout<<endl;
+
+    }
+
+error in this loop
