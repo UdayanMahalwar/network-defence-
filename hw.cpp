@@ -102,7 +102,6 @@ int main()
                             continue;
                         }
                 }
-                
             }
         }
         cout<<endl;
